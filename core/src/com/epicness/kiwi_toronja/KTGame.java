@@ -11,7 +11,7 @@ public class KTGame extends ApplicationAdapter {
     Texture img;
 
     //Hola Lucho
-    // Como es viejo :D
+    // Como es viejo :D ¿todo bien?
     @Override
     public void create() {
         batch = new SpriteBatch();
