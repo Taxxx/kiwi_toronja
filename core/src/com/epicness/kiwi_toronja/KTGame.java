@@ -9,7 +9,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class KTGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
-	
+	//Hola Lucho
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
