@@ -6,15 +6,20 @@ import com.badlogic.gdx.math.Rectangle;
 
 public class SimpleButton {
 
+    // Position and size of the button
     private float x, y, width, height;
 
+    // The button changes when pressed
     private TextureRegion buttonUp;
     private TextureRegion buttonDown;
 
+    // We use a rectangle to detect collision
     private Rectangle bounds;
 
+    // Keeps the state of the button
     private boolean isPressed = false;
 
+    // Constructor
     public SimpleButton(float x, float y, float width, float height,
                         TextureRegion buttonUp, TextureRegion buttonDown) {
         this.x = x;
@@ -28,6 +33,7 @@ public class SimpleButton {
 
     }
 
+    //
     public boolean isClicked(int screenX, int screenY) {
         return bounds.contains(screenX, screenY);
     }
