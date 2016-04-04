@@ -9,6 +9,12 @@ public class KTGame extends Game {
     @Override
     public void create() {
         AssetLoader.load();
-        setScreen(new SplashScreen());
+        setScreen(new SplashScreen(this));
+    }
+
+    @Override
+    public void dispose() {
+        super.dispose();
+        AssetLoader.dispose();
     }
 }
