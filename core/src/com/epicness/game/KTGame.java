@@ -1,4 +1,4 @@
-package com.epicness.kiwi_toronja;
+package com.epicness.game;
 
 import com.badlogic.gdx.Game;
 import com.epicness.helpers.AssetLoader;

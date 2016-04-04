@@ -33,11 +33,12 @@ public class SimpleButton {
 
     }
 
-    //
+    // For desktop
     public boolean isClicked(int screenX, int screenY) {
         return bounds.contains(screenX, screenY);
     }
 
+    // Draws the button
     public void draw(SpriteBatch batcher) {
         if (isPressed) {
             batcher.draw(buttonDown, x, y, width, height);
@@ -46,6 +47,7 @@ public class SimpleButton {
         }
     }
 
+    // Is a finger pressing the button?
     public boolean isTouchDown(int screenX, int screenY) {
 
         if (bounds.contains(screenX, screenY)) {
@@ -56,6 +58,7 @@ public class SimpleButton {
         return false;
     }
 
+    // Is a finger being released from the button?
     public boolean isTouchUp(int screenX, int screenY) {
 
         // It only counts as a touchUp if the button is in a pressed state.

@@ -3,7 +3,7 @@ package com.epicness.kiwi_toronja.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.epicness.kiwi_toronja.KTGame;
+import com.epicness.game.KTGame;
 
 public class HtmlLauncher extends GwtApplication {
 
