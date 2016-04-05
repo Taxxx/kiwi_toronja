@@ -6,6 +6,10 @@ import com.epicness.screens.SplashScreen;
 
 public class KTGame extends Game {
 
+    public KTGame() {
+
+    }
+
     @Override
     public void create() {
         AssetLoader.load();

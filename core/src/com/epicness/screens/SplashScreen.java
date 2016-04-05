@@ -64,7 +64,7 @@ public class SplashScreen extends ScreenAdapter {
         Tween.to(sprite, SpriteAccessor.ALPHA, .8f).target(1)
                 // We want this to use a quadratic interpolation
                 // Repeat once as a Yoyo (with .4 seconds between the repetition).
-                .ease(TweenEquations.easeInOutQuad).repeatYoyo(4, .4f)
+                .ease(TweenEquations.easeInOutQuad).repeatYoyo(1, .4f)
                 // We tell the tween to use our callback when the tweening is complete
                 .setCallback(cb).setCallbackTriggers(TweenCallback.COMPLETE)
                 // We specify the manager that will do the work
